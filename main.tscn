@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjk5afisfwt1k"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_20c6v"]
+[ext_resource type="Theme" uid="uid://c64mctj06m4e" path="res://on.tres" id="2_j025e"]
+[ext_resource type="Theme" uid="uid://o7eg0k41n304" path="res://off.tres" id="3_ppvau"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_20c6v")
+on_theme = ExtResource("2_j025e")
+off_theme = ExtResource("3_ppvau")
